@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portofolio Karya Inovasi - Jumahir, S.Pd</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo-wrapper">
+                <img src="logo_gabungan.png" alt="Logo PPG & LPTK" class="nav-logo">
+                <span class="brand-title">E-Portofolio LK 4 (Desain Inovasi Pembelajaran)</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#beranda" class="nav-link active">Beranda</a>
+                <a href="#profil" class="nav-link">Profil</a>
+                <a href="#laporan" class="nav-link">Laporan Inovasi</a>
+                <a href="#tabel-data" class="nav-link">Data Asesmen</a>
+                <a href="#dokumentasi" class="nav-link">Dokumentasi</a>
+                <a href="#tautan" class="nav-link">Tautan Pendukung</a>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero" style="background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('assets/lptk_bg.png') no-repeat center center/cover;">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="badge">PPG CALON GURU STUDI PPKn</span>
+                <h2>Lembar Kerja 4 Desain Inovasi Pembelajaran</h2>
+                <p class="subtitle">Judul Inovasi : Fokus Pancasila Video Henti dan Bahas dengan Isyarat Tangan sebagai Solusi Praktis Meningkatkan Atensi dan Pemahaman Konseptual Peserta Didik</p>
+                <div class="author-card">
+                    <img src="jumahir_profil.png" alt="Jumahir, S.Pd" class="author-img">
+                    <div>
+                        <h3>Jumahir, S.Pd</h3>
+                        <p>NIM: 20250120909014</p>
+                        <p>Program Studi Pendidikan Profesi Guru (PPG) PPKn</p>
+                        <p><strong>Universitas Muhammadiyah Mataram (UMMAT)</strong></p>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#laporan" class="btn btn-primary"><i class="fas fa-book-open"></i> Baca Laporan Lengkap</a>
+                    <a href="#dokumentasi" class="btn btn-outline"><i class="fas fa-images"></i> Lihat Dokumentasi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Section -->
+    <section id="profil" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Profil Mahasiswa PPG</h2>
+                <p>Identitas Pengembang Karya Inovasi Pembelajaran</p>
+            </div>
+            <div class="profile-grid">
+                <div class="profile-card">
+                    <img src="jumahir_profil.png" alt="Jumahir, S.Pd" class="profile-avatar">
+                    <h3>Jumahir, S.Pd</h3>
+                    <p class="role">Mahasiswa PPG Calon Guru PPKn</p>
+                    <ul class="profile-details">
+                        <li><i class="fas id-badge"></i> <strong>NIM:</strong> 20250120909014</li>
+                        <li><i class="fas fa-university"></i> <strong>LPTK:</strong> Universitas Muhammadiyah Mataram</li>
+                        <li><i class="fas fa-graduation-cap"></i> <strong>Program Studi:</strong> Pendidikan Pancasila dan Kewarganegaraan (PPKn)</li>
+                        <li><i class="fas fa-school"></i> <strong>Lokasi PPL:</strong> SMPN 2 Labuapi (Kelas VII C - 32 Peserta Didik)</li>
+                    </ul>
+                </div>
+                <div class="profile-description">
+                    <h3>Tentang Pengembang & Latar Belakang Inovasi</h3>
+                    <p>Pendidikan Kewarganegaraan, khususnya mata pelajaran Pendidikan Pancasila di tingkat Sekolah Menengah Pertama (SMP), memegang peranan krusial dan strategis dalam membentuk karakter moral, kebangsaan, serta kesadaran hukum peserta didik sebagai warga negara yang baik.</p>
+                    <p>Berdasarkan pengalaman dan refleksi pembelajaran di kelas VII C SMPN 2 Labuapi yang melibatkan 32 peserta didik, ditemukan permasalahan rendahnya atensi peserta didik serta heterogenitas tingkat pemahaman konseptual. Untuk menjawab tantangan ini, dikembangkanlah karya inovasi pembelajaran berjudul <strong>FOKUS PANCASILA</strong>.</p>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <h4>32</h4>
+                            <p>Peserta Didik Kelas VII C</p>
+                        </div>
+                        <div class="stat-box">
+                            <h4>3</h4>
+                            <p>Titik Jeda Video Strategis</p>
+                        </div>
+                        <div class="stat-box">
+                            <h4>100%</h4>
+                            <p>Keterlibatan Aktif Siswa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Laporan Komprehensif Section -->
+    <section id="laporan" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Laporan Komprehensif Karya Inovasi</h2>
+                <p>Ringkasan Eksekutif & Struktur Bab Laporan Inovasi Pembelajaran</p>
+            </div>
+            
+            <div class="report-tabs">
+                <button class="tab-btn active" onclick="openTab(event, 'bab1')">Bab I Pendahuluan</button>
+                <button class="tab-btn" onclick="openTab(event, 'bab2')">Bab II Kajian Pustaka</button>
+                <button class="tab-btn" onclick="openTab(event, 'bab3')">Bab III Rancangan</button>
+                <button class="tab-btn" onclick="openTab(event, 'bab4')">Bab IV Implementasi & Hasil</button>
+                <button class="tab-btn" onclick="openTab(event, 'bab5')">Bab V Kesimpulan</button>
+            </div>
+
+            <div id="bab1" class="tab-content active">
+                <h3>BAB I: Pendahuluan</h3>
+                <h4>1.1 Latar Belakang Masalah</h4>
+                <p>Pendidikan Pancasila di tingkat SMP sangat strategis dalam membentuk karakter moral dan kebangsaan peserta didik. Di kelas VII C SMPN 2 Labuapi (32 siswa), ditemukan kendala sebagian murid berbicara sendiri atau kurang memperhatikan saat guru menjelaskan. Metode konvensional gagal merangsang keterlibatan kognitif secara optimal. Oleh karena itu, dibutuhkan strategi interaktif <strong>FOKUS PANCASILA</strong> (Video Henti dan Bahas dengan Isyarat Tangan).</p>
+                <h4>1.2 Rumusan Masalah</h4>
+                <ul>
+                    <li>Bagaimana cara mengatasi rendahnya atensi dan heterogenitas tingkat pemahaman 32 peserta didik kelas VII C SMPN 2 Labuapi?</li>
+                    <li>Bagaimana rancangan dan prosedur penerapan strategi FOKUS PANCASILA?</li>
+                    <li>Bagaimana hasil implementasi, evaluasi dampak, serta refleksi penerapan strategi tersebut?</li>
+                </ul>
+                <h4>1.3 Tujuan Inovasi</h4>
+                <p>Meningkatkan atensi, keterlibatan aktif secara menyeluruh, serta pemahaman konseptual 32 peserta didik terhadap materi penerapan sila-sila Pancasila melalui asesmen formatif real-time berbasis isyarat jempol.</p>
+            </div>
+
+            <div id="bab2" class="tab-content">
+                <h3>BAB II: Kajian Pustaka & Landasan Teori</h3>
+                <p>Strategi FOKUS PANCASILA didukung oleh teori-teori pendidikan terkemuka:</p>
+                <ul>
+                    <li><strong>Prinsip Segmentasi Pembelajaran Multimedia (Richard E. Mayer):</strong> Memecah materi video menjadi bagian-bagian kecil agar terkelola dengan baik.</li>
+                    <li><strong>Teori Beban Kognitif (John Sweller):</strong> Mengatur penyajian agar tidak membebani memori kerja peserta didik.</li>
+                    <li><strong>Zone of Proximal Development & Scaffolding (Lev Vygotsky):</strong> Memberikan bantuan bertahap melalui pertanyaan pemantik dan diskusi kelompok.</li>
+                    <li><strong>Teori Asesmen Formatif (Paul Black & Dylan Wiliam):</strong> Memantau pemahaman melalui respons isyarat jempol seketika.</li>
+                    <li><strong>Pembelajaran Aktif (Bonwell & Eison):</strong> Melibatkan siswa secara aktif berpikir, berdiskusi, dan merefleksikan materi.</li>
+                </ul>
+            </div>
+
+            <div id="bab3" class="tab-content">
+                <h3>BAB III: Rancangan dan Prosedur Karya Inovasi</h3>
+                <h4>3.1 Bentuk dan Karakteristik Inovasi</h4>
+                <p>Model pembelajaran aktif berbasis video henti terstruktur (segmented video-based learning) dengan 3 titik jeda kritis, kartu diskusi, respons isyarat jempol, dan LKPD analisis kasus.</p>
+                <h4>3.2 Prosedur Penerapan di Kelas (2 JP / 80 Menit)</h4>
+                <ol>
+                    <li>Pendahuluan & Kesepakatan Fokus (8 menit)</li>
+                    <li>Cek Pengetahuan Awal (5 menit)</li>
+                    <li>Menayangkan Video & Membahas 3 Titik Jeda (25 menit)</li>
+                    <li>Analisis Kasus LKPD Kelompok (20 menit)</li>
+                    <li>Penguatan Konsep & Umpan Balik Guru (12 menit)</li>
+                    <li>Tiket Keluar & Refleksi Individu (10 menit)</li>
+                </ol>
+            </div>
+
+            <div id="bab4" class="tab-content">
+                <h3>BAB IV: Implementasi dan Hasil</h3>
+                <p>Implementasi di kelas VII C SMPN 2 Labuapi menunjukkan hasil yang sangat signifikan berdasarkan asesmen formatif respons isyarat jempol dan LKPD kelompok.</p>
+                <p><em>Lihat rincian data asesmen pada menu Data Asesmen di bawah.</em></p>
+            </div>
+
+            <div id="bab5" class="tab-content">
+                <h3>BAB V: Kesimpulan dan Rekomendasi</h3>
+                <h4>5.1 Kesimpulan</h4>
+                <p>Strategi 'FOKUS PANCASILA' terbukti efektif sebagai solusi praktis mengatasi rendahnya atensi dan heterogenitas pemahaman 32 peserta didik di kelas VII C SMPN 2 Labuapi.</p>
+                <h4>5.2 Rekomendasi</h4>
+                <p>Bagi guru untuk diadopsi pada mata pelajaran lain, dan bagi sekolah untuk mendukung fasilitas multimedia yang memadai.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Asesmen Section (Table from Report) -->
+    <section id="tabel-data" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Rekapitulasi Data Asesmen Formatif</h2>
+                <p>Hasil Respons Isyarat Jempol Peserta Didik (Total: 32 Siswa Kelas VII C SMPN 2 Labuapi)</p>
+            </div>
+            
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Titik Jeda / Materi Video</th>
+                            <th>Jempol Ke Atas (Paham)</th>
+                            <th>Jempol Ke Samping (Agak Ragu)</th>
+                            <th>Jempol Ke Bawah (Belum Paham)</th>
+                            <th>Tindak Lanjut / Scaffolding</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Titik Jeda 1</strong><br>(Sila Pertama: Toleransi Beragama)</td>
+                            <td>19 orang <span class="badge-success">(60%)</span></td>
+                            <td>10 orang <span class="badge-warning">(30%)</span></td>
+                            <td>3 orang <span class="badge-danger">(10%)</span></td>
+                            <td>Penjelasan penguat singkat dan diskusi berpasangan sebentar.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Titik Jeda 2</strong><br>(Sila Ketiga: Gotong Royong Bencana)</td>
+                            <td>24 orang <span class="badge-success">(75%)</span></td>
+                            <td>6 orang <span class="badge-warning">(19%)</span></td>
+                            <td>2 orang <span class="badge-danger">(6%)</span></td>
+                            <td>Bimbingan scaffolding sebentar dan penguatan konsep persatuan.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Titik Jeda 3</strong><br>(Sila Kelima: Musyawarah & Keadilan)</td>
+                            <td>28 orang <span class="badge-success">(88%)</span></td>
+                            <td>4 orang <span class="badge-warning">(12%)</span></td>
+                            <td>0 orang <span class="badge-success">(0%)</span></td>
+                            <td>Penguatan akhir dan pendampingan kelompok mandiri dalam LKPD.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dokumentasi Section (All 10 photos matching the report) -->
+    <section id="dokumentasi" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Dokumentasi Kegiatan Pembelajaran</h2>
+                <p>Dokumentasi Visual 10 Foto Aktivitas Nyata di Kelas VII C SMPN 2 Labuapi Sesuai Laporan Komprehensif</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="doc_1.png" alt="Gambar 1.1">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.1</h4>
+                        <p>Suasana awal pembelajaran di kelas VII C saat guru menjelaskan materi dan kesiapan siswa.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="doc_4.png" alt="Gambar 1.2">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.2</h4>
+                        <p>Guru menginstruksikan strategi interaktif dan siswa memperhatikan instruksi Guru.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="doc_3.png" alt="Gambar 1.3">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.3</h4>
+                        <p>Momen pengecekan pemahaman di mana siswa kurang antusias mengangkat tangan dan memberikan respons pada jeda Pertama.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="doc_2.png" alt="Gambar 1.4">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.4</h4>
+                        <p>Momen pengecekan pemahaman di mana siswa antusias mengangkat tangan dan memberikan respons pada jeda ketiga.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="doc_5.png" alt="Gambar 1.5">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.5</h4>
+                        <p>Suasana diskusi kelompok dan pembimbingan aktif oleh guru dalam pengerjaan LKPD.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="doc_6.png" alt="Gambar 1.6">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.6</h4>
+                        <p>Kolaborasi antar peserta didik dalam kelompok kecil menganalisis kasus penerapan Pancasila.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="doc_7.png" alt="Gambar 1.7">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.7</h4>
+                        <p>Masing-Masing kelompok mempresentasikan hasil diskusi LKPD di depan kelas.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="doc_8.png" alt="Gambar 1.8">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.8</h4>
+                        <p>Sesi presentasi kelompok di hadapan guru dan teman sekelas.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="doc_9.png" alt="Gambar 1.9">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.9</h4>
+                        <p>Guru memberikan penilaian dan umpan balik formatif terhadap hasil kerja kelompok.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="doc_10.png" alt="Gambar 1.10">
+                    <div class="gallery-caption">
+                        <h4>Gambar 1.10</h4>
+                        <p>Refleksi akhir dan penutupan pembelajaran bersama seluruh peserta didik.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tautan Pendukung Section -->
+    <section id="tautan" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tautan Pendukung Pembelajaran</h2>
+                <p>Akses Dokumen, Video Aksi Nyata, LKPD, dan Perangkat Pembelajaran</p>
+            </div>
+            
+            <div class="links-grid">
+                <a href="https://youtu.be/oescZb79j0Q?si=eLmfLrjOvTkFGKdA" target="_blank" class="link-card">
+                    <i class="fab fa-youtube"></i>
+                    <h3>Video Aksi Nyata</h3>
+                    <p>Rekaman pelaksanaan pembelajaran di kelas VII C</p>
+                </a>
+                <a href="https://drive.google.com/file/d/17Vv2XDQ_7EIsB9ZfmOCShtFZnUkinhDi/view?usp=sharing" target="_blank" class="link-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Berkas Perangkat Pembelajaran</h3>
+                    <p>Modul ajar dan media pembelajaran interaktif</p>
+                </a>
+                <a href="https://docs.google.com/presentation/d/1ojETrjFvsZA9w4zra9-BpYGj23BMFcl7/edit?usp=drive_link" target="_blank" class="link-card">
+                    <i class="fas fa-file-powerpoint"></i>
+                    <h3>Medaia Ajar PPT</h3>
+                    <p>Paparan materi Pembelajaran melalui slide Power Point presentation</p>
+                </a>
+                <a href="https://drive.google.com/file/d/1jdRswBOg9g61rZTSe-Hd75Nljk5RGrVf/view?usp=drive_link" target="_blank" class="link-card">
+                    <i class="fas fa-clipboard-check"></i>
+                    <h3>Catatan Lembar Observasi</h3>
+                    <p>Hasil pengamatan sejawat dan keberhasilan kelas</p>
+                </a>
+                <a href="https://drive.google.com/file/d/1m6aTDG45Cr6RN0OeFH_oznNXZD2ED8jR/view?usp=drive_link" target="_blank" class="link-card">
+                    <i class="fas fa-poll"></i>
+                    <h3>Hasil LKPD & Penilaian</h3>
+                    <p>Rekapitulasi nilai dan lembar kerja peserta didik</p>
+                </a>
+
+                <!-- Tautan 6: Laporan Karya Inovasi -->
+                <a href="https://drive.google.com/file/d/1W6kED-VO6ckTh94AmHqJD1HvRcEdZ8zr/view?usp=drive_link"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="link-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Laporan Karya Inovasi</h3>
+                    <p>Laporan lengkap karya inovasi pembelajaran FOKUS PANCASILA</p>
+                </a>
+
+                <!-- Tautan 7: LK 5 Desain Inovasi Pembelajaran -->
+                <a href="https://docs.google.com/document/d/1f7w4LCOYqSBngmNoTAoHxqYp24msIjYh/edit?usp=sharing&ouid=113059325197835580895&rtpof=true&sd=true&amp;ouid=113059325197835580895&amp;rtpof=true&amp;sd=true"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="link-card">
+                    <i class="fas fa-file-word"></i>
+                    <h3>LK 4 Desain Inovasi Pembelajaran</h3>
+                    <p>Dokumen lembar kerja desain inovasi pembelajaran</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="logo_gabungan.png" alt="Logo">
+                <span>PPG Calon Guru UMMAT - 2026</span>
+            </div>
+            <p>&copy; 2026 Jumahir, S.Pd (NIM: 20250120909014). Fakultas Keguruan dan Ilmu Pendidikan, Universitas Muhammadiyah Mataram.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
